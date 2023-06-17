@@ -7,7 +7,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'});
    
    // Send the response body as "Hello World"
-   response.end('Hello World - Konnichiwa  \n');
+   response.end('Hello World - Konnichiwa [Exercise - 3.3] \n');
 }).listen(PORT);
 
 // Console will print the message
